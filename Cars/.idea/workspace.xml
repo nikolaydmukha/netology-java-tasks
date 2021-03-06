@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4250c0d9-4be5-4154-88a8-8ae0c6209a87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/lib/diamant-core-9.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/DateRealizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/DigitsRealizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/MoneyRealizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/enums/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/prompts/AbstractPromptCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/prompts/DatePrompts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/prompts/DigitPrompts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/prompts/MoneyPrompts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/prompts/PromptCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/properties/PromptPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/properties/RealizerProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/utils/JsonUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/utils/XMLUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/utils/logging/LogConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/utils/logging/LogHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/utils/logging/LogParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/utils/logging/Logging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/Module.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/action/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/action/ActionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/action/BaseAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/param/DigitsOnlyParamValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/param/LengthParamValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/param/MandatoryParamValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/param/NonBlankParamValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/param/ParamUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/param/ParamValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/param/ParamValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/param/ProperlyCreatedWhenPresentParamValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/CardActivationModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/action/CardActivationAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/action/CardActivationActionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/action/EnrollCustomerAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/action/GetCardStatusAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/action/StoreBirthDateAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/action/StoreNameAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/action/StorePersonalizedOffersMarkerAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/action/StorePersonalizedOffersOnMobileMarkerAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/action/StorePhoneNumberAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/CardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/HttpCardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/request/CardServiceRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/request/EnrollCustomerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/request/GetCardStatusRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/request/StoreBirthDateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/request/StoreNameRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/request/StorePersonalizedOffersMarkerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/request/StorePersonalizedOffersOnMobileMarkerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/request/StorePhoneNumberRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/response/CardServiceResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/response/EnrollCustomerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/response/GetCardStatusResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/response/StoreBirthDateResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/response/StoreNameResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/response/StorePersonalizedOffersMarkerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/response/StorePersonalizedOffersOnMobileMarkerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/response/StorePhoneNumberResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/resources/module.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/resources/prompts/RU_RU/1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/resources/prompts/RU_RU/DigitPrompts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/ModuleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/action/BaseActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/param/DigitsOnlyParamValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/param/LengthParamValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/param/MandatoryParamValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/param/NonBlankParamValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/param/ParamUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/param/ProperlyCreatedWhenPresentParamValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/CardActivationFileCardServiceIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/CardActivationModuleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/action/CardActivationActionFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/action/CardActivationActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/action/EnrollCustomerActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/action/GetCardStatusActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/action/StoreBirthDateActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/action/StoreNameActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/action/StorePersonalizedOffersMarkerActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/action/StorePersonalizedOffersOnMobileMarkerActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/action/StorePhoneNumberActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/FileBasedCardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/FileBasedCardServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/HttpCardServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/request/EnrollCustomerRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/request/GetCardStatusRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/request/StoreBirthDateRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/request/StoreNameRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/request/StorePersonalizedOffersMarkerRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/request/StorePersonalizedOffersOnMobileMarkerRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/request/StorePhoneNumberRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/response/EnrollCustomerResponseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/response/GetCardStatusResponseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/response/StoreBirthDateResponseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/response/StoreNameResponseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/response/StorePersonalizedOffersMarkerResponseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/response/StorePersonalizedOffersOnMobileMarkerResponseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/response/StorePhoneNumberResponseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/resources/enrollCustomerResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/resources/getCardStatusResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/resources/storeBirthDateResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/resources/storeNameResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/resources/storePersonalizedOffersMarkerResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/resources/storePersonalizedOffersOnMobileMarkerResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/resources/storePhoneNumberResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/src/main/java/ru/cti/books/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/src/main/java/ru/cti/books/Books.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/src/main/java/ru/cti/books/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/src/main/java/ru/cti/books/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/java/com/omilia/nlg/DigitsRealizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/java/com/omilia/nlg/DigitsRealizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/java/ru/cti/dellin/DelLinModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/java/ru/cti/dellin/DelLinModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/java/ru/cti/dellin/actions/ActionsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/java/ru/cti/dellin/actions/ActionsFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/java/ru/cti/dellin/actions/GetOrderInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/java/ru/cti/dellin/actions/GetOrderInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/java/ru/cti/dellin/actions/additional/GetLastUtterance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/java/ru/cti/dellin/actions/additional/GetLastUtterance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/resources/prompts/RU_RU/DigitPrompts.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/resources/prompts/RU_RU/DigitPrompts.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1c0CkQMB2PbkVL2U0xXXpqdQTgS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="main.java.ru.cti.cars.types" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ru.cti.cars.Main" />
+      <module name="Cars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.ru.cti.cars.types.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4250c0d9-4be5-4154-88a8-8ae0c6209a87" name="Default Changelist" comment="" />
+      <created>1589656265883</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589656265883</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1589703707405">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1589703707405" />
+    <state x="499" y="197" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1589704899588">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="197" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1589704899588" />
+    <state x="551" y="312" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589704900568">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="551" y="312" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1589704900568" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1589789080953">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834/0.-1080.1920.1050@0.0.1536.834" timestamp="1589789080953" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1589715565787" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1589789080952">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834/0.-1080.1920.1050@0.0.1536.834" timestamp="1589789080952" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1589715565787" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1589789080952">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834/0.-1080.1920.1050@0.0.1536.834" timestamp="1589789080952" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1589715565787" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1589789080953">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834/0.-1080.1920.1050@0.0.1536.834" timestamp="1589789080953" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1589715565787" />
+    <state x="407" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589656811563">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="407" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.834@0.0.1536.834" timestamp="1589656811563" />
+    <state x="209" y="38" key="new project wizard" timestamp="1589716070679">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="209" y="38" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1589716070679" />
+  </component>
+</project>

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18a95d58-1cf0-49a2-adb0-9cc87a03ef5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/lib/diamant-core-9.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/DateRealizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/DigitsRealizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/MoneyRealizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/enums/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/prompts/AbstractPromptCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/prompts/DatePrompts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/prompts/DigitPrompts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/prompts/MoneyPrompts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/prompts/PromptCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/properties/PromptPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/nlg/properties/RealizerProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/utils/JsonUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/utils/XMLUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/utils/logging/LogConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/utils/logging/LogHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/utils/logging/LogParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/com/omilia/utils/logging/Logging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/Module.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/action/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/action/ActionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/action/BaseAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/param/DigitsOnlyParamValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/param/LengthParamValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/param/MandatoryParamValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/param/NonBlankParamValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/param/ParamUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/param/ParamValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/param/ParamValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/param/ProperlyCreatedWhenPresentParamValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/CardActivationModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/action/CardActivationAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/action/CardActivationActionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/action/EnrollCustomerAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/action/GetCardStatusAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/action/StoreBirthDateAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/action/StoreNameAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/action/StorePersonalizedOffersMarkerAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/action/StorePersonalizedOffersOnMobileMarkerAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/action/StorePhoneNumberAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/CardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/HttpCardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/request/CardServiceRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/request/EnrollCustomerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/request/GetCardStatusRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/request/StoreBirthDateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/request/StoreNameRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/request/StorePersonalizedOffersMarkerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/request/StorePersonalizedOffersOnMobileMarkerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/request/StorePhoneNumberRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/response/CardServiceResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/response/EnrollCustomerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/response/GetCardStatusResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/response/StoreBirthDateResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/response/StoreNameResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/response/StorePersonalizedOffersMarkerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/response/StorePersonalizedOffersOnMobileMarkerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/java/ru/cti/omilia/tander/cardactivation/cardservice/response/StorePhoneNumberResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/resources/module.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/resources/prompts/RU_RU/1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/resources/prompts/RU_RU/DigitPrompts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/ModuleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/action/BaseActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/param/DigitsOnlyParamValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/param/LengthParamValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/param/MandatoryParamValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/param/NonBlankParamValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/param/ParamUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/param/ProperlyCreatedWhenPresentParamValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/CardActivationFileCardServiceIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/CardActivationModuleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/action/CardActivationActionFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/action/CardActivationActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/action/EnrollCustomerActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/action/GetCardStatusActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/action/StoreBirthDateActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/action/StoreNameActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/action/StorePersonalizedOffersMarkerActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/action/StorePersonalizedOffersOnMobileMarkerActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/action/StorePhoneNumberActionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/FileBasedCardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/FileBasedCardServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/HttpCardServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/request/EnrollCustomerRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/request/GetCardStatusRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/request/StoreBirthDateRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/request/StoreNameRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/request/StorePersonalizedOffersMarkerRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/request/StorePersonalizedOffersOnMobileMarkerRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/request/StorePhoneNumberRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/response/EnrollCustomerResponseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/response/GetCardStatusResponseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/response/StoreBirthDateResponseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/response/StoreNameResponseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/response/StorePersonalizedOffersMarkerResponseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/response/StorePersonalizedOffersOnMobileMarkerResponseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/java/ru/cti/omilia/tander/cardactivation/cardservice/response/StorePhoneNumberResponseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/resources/enrollCustomerResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/resources/getCardStatusResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/resources/storeBirthDateResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/resources/storeNameResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/resources/storePersonalizedOffersMarkerResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/resources/storePersonalizedOffersOnMobileMarkerResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Practice/tander-module/src/main/test/resources/storePhoneNumberResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ru/cti/access/Exceptions/AccessDeniedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ru/cti/access/Exceptions/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ru/cti/access/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ru/cti/access/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/src/main/java/ru/cti/books/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/src/main/java/ru/cti/books/Books.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/src/main/java/ru/cti/books/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Library/src/main/java/ru/cti/books/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/backup/dellin-module/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/backup/dellin-module/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/backup/dellin-module/src/main/java/com/omilia/nlg/DigitsRealizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/backup/dellin-module/src/main/java/com/omilia/nlg/DigitsRealizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/backup/dellin-module/src/main/java/ru/cti/dellin/DelLinModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/backup/dellin-module/src/main/java/ru/cti/dellin/DelLinModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/backup/dellin-module/src/main/java/ru/cti/dellin/actions/ActionsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/backup/dellin-module/src/main/java/ru/cti/dellin/actions/ActionsFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/backup/dellin-module/src/main/java/ru/cti/dellin/actions/GetOrderInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/backup/dellin-module/src/main/java/ru/cti/dellin/actions/GetOrderInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/backup/dellin-module/src/main/java/ru/cti/dellin/actions/GetOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/backup/dellin-module/src/main/java/ru/cti/dellin/actions/GetOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/backup/dellin-module/src/main/java/ru/cti/dellin/actions/additional/GetLastUtterance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/backup/dellin-module/src/main/java/ru/cti/dellin/actions/additional/GetLastUtterance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/backup/dellin-module/src/main/resources/prompts/RU_RU/DigitPrompts.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/backup/dellin-module/src/main/resources/prompts/RU_RU/DigitPrompts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/java/com/omilia/nlg/DigitsRealizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/java/com/omilia/nlg/DigitsRealizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/java/ru/cti/dellin/DelLinModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/java/ru/cti/dellin/DelLinModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/java/ru/cti/dellin/actions/ActionsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/java/ru/cti/dellin/actions/ActionsFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/java/ru/cti/dellin/actions/GetOrderInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/java/ru/cti/dellin/actions/GetOrderInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/java/ru/cti/dellin/actions/additional/GetLastUtterance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/java/ru/cti/dellin/actions/additional/GetLastUtterance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/resources/prompts/RU_RU/DigitPrompts.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Practice/dellin-module/src/main/resources/prompts/RU_RU/DigitPrompts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/DEVELOPMENT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/lib/diamant-core-9.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/lib/mysql-connector-java-8.0.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/customername/inferences/AbstractInference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/customername/inferences/ExampleInference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/customername/inferences/Inference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/customername/properties/InputMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/customername/properties/Properties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/customername/properties/Results.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/customername/properties/WebServiceProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/customername/utils/JsonUtilities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/customername/utils/Utilities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/customername/utils/logging/LogHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/customername/utils/logging/LogParameter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/customername/utils/logging/Logging.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/customername/webservices/handlers/AbstractHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/customername/webservices/handlers/ExampleHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/customername/webservices/handlers/Handler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/customername/webservices/responses/ExampleResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/customername/webservices/responses/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/nlg/DateRealizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/nlg/DigitRealizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/nlg/MonetaryRealizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/nlg/enums/Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/nlg/prompts/AbstractPromptCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/nlg/prompts/DatePrompts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/nlg/prompts/DigitPrompts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/nlg/prompts/MoneyPrompts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/nlg/prompts/PromptCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/com/omilia/nlg/properties/RealizerProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/BaseModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/DccModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/ErtelecomDccModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/ErtelecomIvrModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/IvrModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/Log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ActionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ActionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/BaseAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/BaseDbAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/BaseSendParamsAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/DccActionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/IvrActionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ParamException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ParamNotFilledException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ParamNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ParamUndefinedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/RenameParamException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/common/CheckDaysInScopeAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/common/CompareNumbersAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/common/CreateClientPathAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/common/GetCurrentDtAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/common/TotalCostPromisedPaymentAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/common/UnknownAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/dcc/DccBaseAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/dcc/DccGenesisParserAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/dcc/DccGetBalanceAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/dcc/DccInitAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/dcc/DccInitActionSPAS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/dcc/DccRequestMethodAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/dcc/DccSendParamsAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/helper/SpasDataHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrBaseAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrCheckAddressAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrCheckAgreementRequestAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrCheckCityAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrCheckCityRequestAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrCheckPromisedPaymentAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrCheckWorkTimeAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrCreateRequestAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrGetAccessTeleNetworkAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrGetActualCostOpAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrGetAddressesAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrGetAgrNumVoiceDataAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrGetAutoAccessModuleAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrGetBalForAgrNumAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrGetBalanceVoiceDataAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrGetBaseInfoAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrGetCityByRegionAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrGetProductListAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrGetPromisedPaymentAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrGetStaticKeyAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrInitAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrInitByPhoneNumberAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/action/ivr/IvrSendParamsAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/adapter/DccAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/adapter/IvrAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/adapter/IvrResponseParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/adapter/ParseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/adapter/SpasAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/adapter/UrlBuildException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/adapter/UrlBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/config/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/converter/JsonConvertException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/converter/JsonConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/converter/NumOb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/converter/NumberToTextConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/exception/MissingParameterException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/http/AsteriskRequester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/http/DccRequester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/http/HttpRequester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/http/HttpResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/http/IvrRequester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/http/SpasHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/http/SpasRequester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/i18n/CitiesHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/i18n/MessagesHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/util/BalanceUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/util/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/util/HttpUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/util/NumberUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/util/ParamsUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/util/StrUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/java/ru/cti/omilia/ert/util/TraceUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/resources/ERTMessages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/resources/ERTMessages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/resources/ERTMessages_ru.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/resources/app.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/main/resources/cities.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/IvrModuleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/ModuleTest_real.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/CheckDaysInScopeActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/CompareNumbersActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/DccActionFactoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/IvrActionFactoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/UnknownActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/common/CreateClientPathActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/common/GetCurrentDtActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/dcc/DccGenesisParserActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/dcc/DccGetBalanceActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/dcc/DccInitActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/dcc/DccRequestMethodActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/dcc/DccSendParamsActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/helper/SpasDataHelperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/ivr/IvrCheckAddressActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/ivr/IvrCheckAgreementRequestActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/ivr/IvrCheckCityActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/ivr/IvrCheckCityRequestActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/ivr/IvrCheckWorkTimeActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/ivr/IvrCreateRequestActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/ivr/IvrGetAccessTeleNetworkActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/ivr/IvrGetAgrNumVoiceDataActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/ivr/IvrGetAutoAccessModuleActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/ivr/IvrGetBalForAgrNumActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/ivr/IvrGetBalanceVoiceDataActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/ivr/IvrGetCityByRegionActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/ivr/IvrGetProductListActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/ivr/IvrGetStaticKeyActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/ivr/IvrInitActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/action/ivr/IvrSendParamsActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/adapter/DccAdapterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/adapter/IvrResponseParserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/adapter/UrlBuilderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/converter/JsonConverterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/converter/NumberToTextConverterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/http/AsteriskRequesterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/http/DccRequesterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/http/HttpRequesterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/http/IvrRequesterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/http/SpasRequesterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/i18n/CitiesHolderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/i18n/MessagesHolderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/props/ConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/server/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/server/TestServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/server/WithServerBaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/test/ResourceLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/test/SomeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/util/BalanceUtilTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/util/DateUtilTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/util/NumberUtilTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/util/ParamsUtilTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/java/ru/cti/omilia/ert/util/StrUtilTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/resources/app.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/resources/dccAdapter/getBaseInfo_response_ok.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/resources/dccAdapter/getCityAlias_response_ok.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/resources/dccAdapter/init_response_ok.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/resources/json/response_ERROR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/resources/json/response_OK.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/resources/spas/getData_response_ok.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/resources/spas/login_response_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/src/test/resources/spas/login_response_ok.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1cLJgjyPAdkuZ7qYKcwddNyMw3G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Homework/Practice/ertelecom-module/ertelecom-module" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.ru.cti.access.Main" />
+      <module name="AccessExceptions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.ru.cti.access.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18a95d58-1cf0-49a2-adb0-9cc87a03ef5d" name="Default Changelist" comment="" />
+      <created>1590302053708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590302053708</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1590660236178">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834/0.-1080.1920.1050@0.0.1536.834" timestamp="1590660236178" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1590397064404">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834/0.-1080.1920.1050@0.0.1536.834" timestamp="1590397064404" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1590304905049" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1590397064404">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834/0.-1080.1920.1050@0.0.1536.834" timestamp="1590397064404" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1590304905049" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1590397064403">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834/0.-1080.1920.1050@0.0.1536.834" timestamp="1590397064403" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1590304905048" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1590397064404">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834/0.-1080.1920.1050@0.0.1536.834" timestamp="1590397064404" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1590304905049" />
+  </component>
+</project>

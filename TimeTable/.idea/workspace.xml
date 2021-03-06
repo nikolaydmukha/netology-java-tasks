@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70e5f4b3-c878-48f5-b5a0-addfea492cdb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Adpy/Lesson 1.4/street/Streets.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Adpy/Lesson 1.4/street/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Adpy/Lesson 1.4/street/actions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Adpy/Lesson 1.4/street/street_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Adpy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Adpy/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1bO4KO4feBFSgutNQsHpyj8fZhY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TimeTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.ru.netology.timetable.TimeTable" />
+      <module name="TimeTable" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.ru.netology.timetable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TimeTable" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70e5f4b3-c878-48f5-b5a0-addfea492cdb" name="Default Changelist" comment="" />
+      <created>1588489741466</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588489741466</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1590822450815">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1590822450815" />
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom" timestamp="1588663587632">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1588663587632" />
+    <state width="1493" height="265" key="GridCell.Tab.0.center" timestamp="1588663587632">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1588663587632" />
+    <state width="1493" height="265" key="GridCell.Tab.0.left" timestamp="1588663587632">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1588663587632" />
+    <state width="1493" height="265" key="GridCell.Tab.0.right" timestamp="1588663587632">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1588663587632" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1588663587633">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1588663587633" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1588663587633">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1588663587633" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1588663587632">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1588663587632" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1588663587633">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1588663587633" />
+    <state x="277" y="62" key="SettingsEditor" timestamp="1590822578965">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1590822578965" />
+    <state x="478" y="152" width="579" height="530" key="find.popup" timestamp="1588490924785">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="478" y="152" width="579" height="530" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1588490924785" />
+    <state x="209" y="38" key="new project wizard" timestamp="1590822457563">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="209" y="38" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1590822457563" />
+  </component>
+</project>
